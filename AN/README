@@ -1,0 +1,7 @@
+Para ejecutar de forma correcta los scripts: 
+
+1°  Ejecutar script precisiónXdatasize: El mismo se encargará de entrenar al modelo de regresión con el dataset MNIST. Asimismo generará un .csv con la precisión a la hora del testeo en función del tamaño del dataset 
+
+2° Ejecutar  en consola: python main.py [Grado del polinomio] 
+
+Ej.  python main.py 3 ---> realizara una ajuste polinomico de grado 3 por mínimos cuadrados
